@@ -6,7 +6,6 @@ import telebot
 from bs4 import BeautifulSoup
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-BOT_TOKEN = "5774627104:AAHOQhfgo4W8LBe7GelA9SsddH7R7XlRhUA"
 URL = "https://paper-trader.frwd.one/"
 
 
