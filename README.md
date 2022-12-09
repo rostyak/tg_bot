@@ -19,9 +19,5 @@ export BOT_TOKEN=token_of_your_bot (on macOS)
 python main.py
 ```
 
-Or you can try it using my bot:
-https://t.me/TraderImageBot
-
-
 ## Demo
 ![Demo](./demo.png)
