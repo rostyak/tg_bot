@@ -24,4 +24,4 @@ https://t.me/TraderImageBot
 
 
 ## Demo
-![Иллюстрация к проекту](./demo.png)
+![Demo](./demo.png)
