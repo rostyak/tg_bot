@@ -40,8 +40,11 @@ def telegram_bot(token):
         try:
             response = requests.post(URL, data=data)
         except requests.RequestException:
-            bot.send_message(message.chat.id, ("Oops, something went "
-                                               "wrong... Try again"))
+            bot.send_message(
+                message.chat.id,
+                "Oops, something went wrong... Try again"
+            )
+            return
 
         # Finding a link for the image
         try:
@@ -53,6 +56,7 @@ def telegram_bot(token):
                 message.chat.id,
                 "Oops, something went wrong... Try again"
             )
+            return
 
         # Sending photo with results via Telegram Bot
         bot.send_message(
